@@ -1,0 +1,18 @@
+.navbar{
+    background-color:rgba(27, 43, 180, 0.808);
+}
+
+.nav .nav-link.active{
+    background-color: #fff;
+    color: rgb(33, 46, 235);
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.navbar-brand{
+    font-size:Gupter,static;
+}
