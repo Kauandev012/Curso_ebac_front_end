@@ -28,22 +28,38 @@
 }
 
 .text_vip{
-    color:rgba(204, 152, 8, 0.966);
+    color:rgba(235, 2, 2, 0.966);
 }
 
-.nav-vip .nav-link.active{
-    background-color:#c4891cf6;
+.nav-vip .nav-link.active {
+    background-color:#cf5300b6;
     color: #fff;
 }
 
 .nav-vip .nav-link.hover{
-    color:#c4891cf6;
+    color:#ad3314f6;
 }
 
-#conheça-a-loja{
-    background-color: #9dbad4;
+#conheça-a-loja,#eventos{
+    background-color: #6087aa;
 }
 
-#eventos{
-    background-color: #9dbad4;
+.link li{
+    list-style: none;
+    display: inline;
+}
+
+.link a{
+    text-decoration: none;
+}
+
+#contatos button{
+    background-color: #445ad3ef;
+    color: #fff;
+}
+
+@media (max-width:767px){
+    .carousel-item img{
+        height: 260px;
+    }
 }
